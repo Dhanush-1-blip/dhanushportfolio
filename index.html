@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Dhanush Reddy | Aspiring AI & Machine Learning Engineer</title>
+  <meta name="description" content="Portfolio of Dhanush Reddy, 2nd-year B.Tech CSE (AI & ML) student. Aspiring AI & Machine Learning Engineer exploring Python, AI technologies, and problem solving.">
+  <meta name="keywords" content="Dhanush Reddy, AI Engineer, Machine Learning, Python, Student Portfolio, Computer Science Engineering">
+  <meta name="author" content="Dhanush Reddy">
+  
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dhanush Reddy | Aspiring AI & Machine Learning Engineer">
+  <meta property="og:description" content="Portfolio of Dhanush Reddy, 2nd-year B.Tech CSE (AI & ML) student exploring Python, AI, and Machine Learning.">
+  <meta property="og:image" content="assets/images/favicon.svg">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dhanush Reddy | Aspiring AI & Machine Learning Engineer">
+  <meta name="twitter:description" content="2nd-year B.Tech CSE (AI & ML) student portfolio.">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" role="banner">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo" aria-label="Dhanush Reddy Homepage">
+        <div class="brand-monogram">DR</div>
+        <div class="brand-text">
+          <span class="brand-name">Dhanush Reddy</span>
+          <span class="brand-role">AI & ML Student</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Navigation Actions -->
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" aria-label="Toggle theme mode" title="Switch Theme">
+          <!-- Populated by theme.js -->
+        </button>
+        <button type="button" class="btn btn-outline-purple btn-sm btn-resume-trigger">
+          Resume
+        </button>
+        <button type="button" class="mobile-toggle" aria-expanded="false" aria-label="Open navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <canvas id="ai-canvas" aria-hidden="true"></canvas>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <div class="hero-status-badge">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>2nd Year B.Tech CSE (AI & ML)</span>
+          </div>
+          <h1 id="hero-title" class="hero-title">
+            Hi, I'm <span class="text-gradient-coral">Dhanush Reddy</span>.
+          </h1>
+          <p class="hero-headline">Aspiring AI & Machine Learning Engineer</p>
+          <p class="hero-description">
+            I'm a second-year Computer Science Engineering student with an interest in Artificial Intelligence and Machine Learning. I enjoy learning new technologies, exploring innovative ideas, and developing my problem-solving abilities through programming.
+          </p>
+          <div class="hero-actions">
+            <a href="#about-preview" class="btn btn-primary">
+              <span>Explore My Journey</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <a href="contact.html" class="btn btn-secondary">
+              <span>Get In Touch</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </a>
+          </div>
+
+          <!-- Quick Verified Facts -->
+          <div class="hero-quick-meta">
+            <div class="meta-item">
+              <span class="meta-label">Discipline</span>
+              <span class="meta-value">CSE (AI & ML)</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Primary Tool</span>
+              <span class="meta-value">Python</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Core Focus</span>
+              <span class="meta-value">AI Concepts & Math</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Personal Brand Avatar -->
+        <div class="hero-visual reveal">
+          <div class="avatar-container">
+            <div class="avatar-orbit" aria-hidden="true">
+              <div class="avatar-orbit-node"></div>
+            </div>
+            <div class="avatar-card">
+              <div class="avatar-monogram">DR</div>
+              <span class="avatar-caption">Dhanush Reddy</span>
+            </div>
+            <div class="floating-badge floating-badge-1" aria-hidden="true">
+              <span class="status-dot"></span>
+              <span>Python Student</span>
+            </div>
+            <div class="floating-badge floating-badge-2" aria-hidden="true">
+              <span class="text-gradient-purple" style="font-weight: 800;">AI / ML</span>
+              <span>Enthusiast</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Preview Section -->
+    <section id="about-preview" class="section" aria-labelledby="about-preview-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">About Me</span>
+          <h2 id="about-preview-title" class="section-title">Curious Mind. Growing Through Technology.</h2>
+          <p class="section-description">
+            Building steady foundations in computer science while actively expanding my understanding of modern artificial intelligence.
+          </p>
+        </div>
+
+        <div class="card-grid-3">
+          <div class="card reveal">
+            <div class="card-icon purple-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+            </div>
+            <h3 class="card-title">Academic Grounding</h3>
+            <p class="card-description">
+              Currently pursuing my 2nd Year in Bachelor of Technology (B.Tech) specializing in Computer Science Engineering (Artificial Intelligence & Machine Learning).
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <div class="card-icon coral-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+            </div>
+            <h3 class="card-title">Problem-Solving Mindset</h3>
+            <p class="card-description">
+              Driven by a genuine curiosity for how intelligent algorithms work and a commitment to writing clean, logical code to solve practical challenges.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <div class="card-icon purple-accent">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+            </div>
+            <h3 class="card-title">Quick Learner</h3>
+            <p class="card-description">
+              Adapting rapidly to emerging computational tools, programming fundamentals, and machine learning principles with dedication and consistency.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+          <a href="about.html" class="btn btn-outline">
+            <span>Read Full Background</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Preview Section -->
+    <section class="section" style="background-color: var(--bg-secondary);" aria-labelledby="skills-preview-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Technical Foundation</span>
+          <h2 id="skills-preview-title" class="section-title">Technologies I'm Learning</h2>
+          <p class="section-description">
+            Transparently displaying verified technical capabilities alongside forward-looking areas of research.
+          </p>
+        </div>
+
+        <!-- Verified Skill -->
+        <div class="skills-block reveal">
+          <h3 class="skills-block-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            <span>Verified Technical Skill</span>
+          </h3>
+
+          <div class="skill-verified-card">
+            <div class="skill-logo-wrap">
+              <!-- Python Logo SVG -->
+              <svg viewBox="0 0 128 128" width="44" height="44" aria-label="Python Logo">
+                <path fill="#3776AB" d="M63.8 0C32.4 0 34.3 13.8 34.3 13.8l.1 14.3h30.1v4.3H22.7S0 29.8 0 61.4c0 31.5 19.8 30.5 19.8 30.5h11.8v-16.7s-.6-19.8 19.5-19.8h29.9s18.7.3 18.7-18.1V14.8S101.9 0 63.8 0zM47.7 9.4c3.4 0 6.1 2.7 6.1 6.1s-2.7 6.1-6.1 6.1-6.1-2.7-6.1-6.1c0-3.4 2.8-6.1 6.1-6.1z"/>
+                <path fill="#FFD43B" d="M64.2 128c31.4 0 29.5-13.8 29.5-13.8l-.1-14.3H63.5v-4.3h41.8s22.7 2.6 22.7-29.1c0-31.5-19.8-30.5-19.8-30.5h-11.8v16.7s.6 19.8-19.5 19.8H47s-18.7-.3-18.7 18.1v22.5s-2.2 14.8 35.9 14.8zm16.1-9.4c-3.4 0-6.1-2.7-6.1-6.1s2.7-6.1 6.1-6.1 6.1 2.7 6.1 6.1c0 3.4-2.8 6.1-6.1 6.1z"/>
+              </svg>
+            </div>
+            <div>
+              <div style="display: flex; align-items: center; flex-wrap: wrap;">
+                <h4 style="font-size: 1.35rem; font-weight: 700; color: var(--text-primary);">Python</h4>
+                <span class="skill-badge-verified">Confirmed Skill</span>
+              </div>
+              <p style="margin-top: 0.5rem; color: var(--text-secondary); font-size: 0.95rem;">
+                Core programming language of choice for exploring computer science fundamentals, data manipulation, algorithm design, and preparing for machine learning workflows.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Areas of Interest -->
+        <div class="skills-block reveal" style="margin-bottom: 0;">
+          <h3 class="skills-block-title">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span>Areas of Active Interest & Learning</span>
+          </h3>
+
+          <div class="card-grid-3">
+            <div class="card">
+              <div class="card-icon purple-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="20" y1="14" x2="23" y2="14"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="14" x2="4" y2="14"></line></svg>
+              </div>
+              <h4 class="card-title">Artificial Intelligence</h4>
+              <p class="card-description">
+                Studying core intelligence concepts, search strategies, knowledge representation, and computational problem solving.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="card-icon coral-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              </div>
+              <h4 class="card-title">Machine Learning</h4>
+              <p class="card-description">
+                Exploring fundamental principles of predictive modeling, supervised and unsupervised learning theory, and mathematical foundations.
+              </p>
+            </div>
+
+            <div class="card">
+              <div class="card-icon purple-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path></svg>
+              </div>
+              <h4 class="card-title">Emerging AI Tech</h4>
+              <p class="card-description">
+                Tracking new developments in deep learning architectures, intelligent automation tools, and ethical AI deployment practices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+          <a href="skills.html" class="btn btn-outline">
+            <span>Explore Technical Roadmap</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Preview Section -->
+    <section class="section" aria-labelledby="projects-preview-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Project Showcase</span>
+          <h2 id="projects-preview-title" class="section-title">Projects & Exploration</h2>
+          <p class="section-description">
+            Transparent documentation of hands-on technical work and upcoming portfolio projects.
+          </p>
+        </div>
+
+        <!-- Rendered by js/projects.js -->
+        <div id="projects-preview-container"></div>
+
+        <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+          <a href="projects.html" class="btn btn-outline">
+            <span>View Projects Roadmap</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Journey Section -->
+    <section class="section" style="background-color: var(--bg-secondary);" aria-labelledby="journey-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Growth Path</span>
+          <h2 id="journey-title" class="section-title">My Learning Journey</h2>
+          <p class="section-description">
+            A student perspective on building skills systematically with curiosity, discipline, and purpose.
+          </p>
+        </div>
+
+        <div class="card-grid-2">
+          <div class="card reveal">
+            <h3 class="card-title" style="display: flex; align-items: center; gap: 0.5rem;">
+              <span class="text-gradient-coral">01.</span> Building Programming Foundations
+            </h3>
+            <p class="card-description">
+              Strengthening fundamental programming practices through Python, focusing on modular design, efficient problem-solving, and solid computer science principles.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="card-title" style="display: flex; align-items: center; gap: 0.5rem;">
+              <span class="text-gradient-purple">02.</span> Exploring Artificial Intelligence
+            </h3>
+            <p class="card-description">
+              Investigating foundational concepts in AI, knowledge structures, and computational methods to understand how intelligent systems reason and decide.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="card-title" style="display: flex; align-items: center; gap: 0.5rem;">
+              <span class="text-gradient-coral">03.</span> Developing Problem-Solving Skills
+            </h3>
+            <p class="card-description">
+              Approaching algorithmic questions with structured analytical thinking, testing hypotheses, and learning from iterations.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <h3 class="card-title" style="display: flex; align-items: center; gap: 0.5rem;">
+              <span class="text-gradient-purple">04.</span> Learning Machine Learning Concepts
+            </h3>
+            <p class="card-description">
+              Stepping into linear algebra, statistics, and machine learning theory to build an enduring understanding ahead of real-world model implementation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Preview Section -->
+    <section class="section" aria-labelledby="contact-preview-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-tag">Get in Touch</span>
+          <h2 id="contact-preview-title" class="section-title">Let's Connect & Collaborate</h2>
+          <p class="section-description">
+            Always open to academic advice, internship discussions, peer networking, and AI conversations.
+          </p>
+        </div>
+
+        <div class="card-grid-2" style="max-width: 860px; margin: 0 auto;">
+          <a href="tel:9900320107" class="contact-card-link reveal">
+            <div class="contact-icon-box coral">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Direct Call</h4>
+              <p>+91 9900320107</p>
+            </div>
+          </a>
+
+          <a href="mailto:dr114547@gmail.com" class="contact-card-link reveal">
+            <div class="contact-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>Email</h4>
+              <p>dr114547@gmail.com</p>
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/dhanush-reddy-333961446?trk=contact-info" target="_blank" rel="noopener noreferrer" class="contact-card-link reveal">
+            <div class="contact-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>LinkedIn Profile</h4>
+              <p>Connect with Dhanush</p>
+            </div>
+          </a>
+
+          <a href="https://github.com/Dhanush-1-blip" target="_blank" rel="noopener noreferrer" class="contact-card-link reveal">
+            <div class="contact-icon-box">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </div>
+            <div class="contact-detail-text">
+              <h4>GitHub Profile</h4>
+              <p>@Dhanush-1-blip</p>
+            </div>
+          </a>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.5rem;" class="reveal">
+          <a href="contact.html" class="btn btn-primary">
+            <span>Send a Direct Message</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Resume Modal Dialog -->
+  <div id="resume-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="resume-modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <button type="button" id="resume-modal-close" class="modal-close-btn" aria-label="Close modal dialog">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div style="width: 56px; height: 56px; border-radius: 50%; background: var(--color-purple-subtle); color: var(--color-purple); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+      </div>
+      <h3 id="resume-modal-title" style="font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 0.5rem;">Resume Coming Soon</h3>
+      <p style="font-size: 0.95rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.5rem;">
+        Dhanush's professional resume is currently being finalized with 2nd-year coursework, problem-solving achievements, and upcoming AI projects.
+      </p>
+      <p style="font-size: 0.875rem; color: var(--text-tertiary); margin-bottom: 1.5rem;">
+        In the meantime, feel free to connect directly via email or LinkedIn.
+      </p>
+      <div style="display: flex; gap: 0.75rem; justify-content: center;">
+        <a href="contact.html" class="btn btn-primary btn-sm">Contact Dhanush</a>
+        <a href="https://www.linkedin.com/in/dhanush-reddy-333961446?trk=contact-info" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="brand-monogram">DR</div>
+            <div class="brand-text">
+              <span class="brand-name">Dhanush Reddy</span>
+              <span class="brand-role">Aspiring AI & ML Engineer</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            Computer Science Engineering (AI & ML) student focused on building strong programming foundations in Python and exploring emerging artificial intelligence.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About</a></li>
+            <li><a href="skills.html" class="footer-link">Skills</a></li>
+            <li><a href="projects.html" class="footer-link">Projects</a></li>
+            <li><a href="contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-col-title">Connect</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:dr114547@gmail.com" class="footer-link">dr114547@gmail.com</a></li>
+            <li><a href="tel:9900320107" class="footer-link">+91 9900320107</a></li>
+          </ul>
+          <div class="footer-social-icons">
+            <a href="https://github.com/Dhanush-1-blip" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="GitHub profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/dhanush-reddy-333961446?trk=contact-info" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn profile">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+            <a href="tel:9900320107" class="footer-social-btn" aria-label="Call Dhanush">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span class="dynamic-year">2026</span> Dhanush Reddy. All rights reserved.</p>
+        <p>Built with clean HTML5, CSS3 & Python Flask backend.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/config.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* ==========================================================================
+   THEMES & DESIGN SYSTEM - DHANUSH REDDY PORTFOLIO
+   Brand Colors: Coral (#FF5C35), Electric Purple (#635BFF), White (#FFFFFF), Charcoal (#171717)
+   ========================================================================== */
+
+:root {
+  /* Brand Core Colors */
+  --color-coral: #FF5C35;
+  --color-coral-hover: #E04B26;
+  --color-coral-subtle: rgba(255, 92, 53, 0.08);
+  --color-coral-glow: rgba(255, 92, 53, 0.25);
+
+  --color-purple: #635BFF;
+  --color-purple-hover: #4F46E5;
+  --color-purple-subtle: rgba(99, 91, 255, 0.08);
+  --color-purple-glow: rgba(99, 91, 255, 0.25);
+
+  /* Light Theme Palette (Default) */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8FAFC;
+  --bg-tertiary: #F1F5F9;
+  --bg-card: #FFFFFF;
+  --bg-card-hover: #FAFAFA;
+  --bg-glass: rgba(255, 255, 255, 0.85);
+  --bg-overlay: rgba(23, 23, 23, 0.4);
+
+  --text-primary: #171717;        /* Charcoal */
+  --text-secondary: #4A5568;      /* Deep Neutral */
+  --text-tertiary: #718096;       /* Muted Neutral */
+  --text-inverse: #FFFFFF;
+
+  --border-subtle: #E2E8F0;
+  --border-medium: #CBD5E1;
+  --border-focus: #635BFF;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  --shadow-xl: 0 20px 30px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-glow: 0 0 20px rgba(99, 91, 255, 0.15);
+
+  /* Typography */
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+
+  /* Sizing & Spacing */
+  --header-height: 72px;
+  --container-max-width: 1200px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Animation Speeds */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ==========================================================================
+   Dark Theme (Activated via data-theme="dark" on <html> or <body>)
+   ========================================================================== */
+
+[data-theme="dark"] {
+  --bg-primary: #0C0D12;
+  --bg-secondary: #13141B;
+  --bg-tertiary: #1B1D26;
+  --bg-card: #14161F;
+  --bg-card-hover: #1A1D28;
+  --bg-glass: rgba(12, 13, 18, 0.85);
+  --bg-overlay: rgba(0, 0, 0, 0.7);
+
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-tertiary: #64748B;
+  --text-inverse: #171717;
+
+  --border-subtle: #232634;
+  --border-medium: #33384A;
+  --border-focus: #818CF8;
+
+  --color-coral: #FF6E4A;
+  --color-coral-hover: #FF8566;
+  --color-coral-subtle: rgba(255, 110, 74, 0.12);
+  --color-coral-glow: rgba(255, 110, 74, 0.3);
+
+  --color-purple: #7C75FF;
+  --color-purple-hover: #948EFF;
+  --color-purple-subtle: rgba(124, 117, 255, 0.12);
+  --color-purple-glow: rgba(124, 117, 255, 0.3);
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 10px 25px -3px rgba(0, 0, 0, 0.5);
+  --shadow-xl: 0 20px 30px -5px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 25px rgba(124, 117, 255, 0.25);
+}
